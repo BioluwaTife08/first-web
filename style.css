@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 20%;
+
+}
+.logo img{
+    width: 50%;
+}
+body{
+    background-color: rgba(64, 40, 6, 0.865);
+}
+nav{
+    display: flex;
+    padding: 5px 20px 10px 20px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+nav ul li a:hover{
+    font-size: large;
+}
+
+nav button{
+    background-color: white;
+    color: black;
+    width: 10%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+nav button:hover{
+    color: white;
+    background-color: black;
+}
+.first_section{
+    display: flex;
+    width: 100%;
+    padding: 150px 40px 10px 40px;
+    gap: 100px;
+}
+.second_child{
+    width: 40%;
+    margin-left: 300px;
+    margin-top: -100px;
+
+}
+.second_child img{
+    width: 70%;
+    height: 400px;
+}
+.first_child{
+    width: 60%;
+}
+.first_child h1{
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+    width: 100%;
+
+}
+.first_child p{
+    color: black;
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+.first_child button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.first_child button:hover{
+    color: black;
+    background-color: yellow;
+}
+.second_section{
+    background-color: white;
+    height: 500px 
+}
+.second_section h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: courier;
+    padding-top: 20px;
+}
+.second_section .motherclass{
+    display: flex;
+    gap: 100px;
+    padding-left: 30px;
+    margin: 10px auto;
+}
+.motherclass .firstchild{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(104, 98, 98);
+    border-radius: 500%;
+}
+.motherclass .secondchild{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(104, 98, 98);
+    border-radius: 500%;
+}
+.motherclass .thirdchild{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(104, 98, 98);
+    border-radius: 500%;
+}
+.paragraph{
+    display: flex;
+    gap: 320px;
+    padding-left: 120px;
+    position: relative;
+    top: -120px;
+    font-size: 20px;
+}
